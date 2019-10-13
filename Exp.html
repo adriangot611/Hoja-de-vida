@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>hoja de vida</title>
+</head>
+<body>
+    <!--
+        En el section hay dos divs, en los que se divide la hoja de vida.
+    -->
+    <section class="principal">
+
+        <!--
+            EN el lado izquierdo podemos encontrar la foto, el nombre y la carrera que se esta cursando
+        -->
+        <div class="side left">
+            <div class="name">
+                <h1>Adrian Hassek Gonzalez Orobio</h1>
+            </div>
+            <div class="foto">
+                <img src="imagenes/Foto de perfil.jpeg" alt="">
+            </div>
+            <div class="carrera">
+                <h2>Ingeniero de sistemas</h2   >
+                <h3>Estudiante</h3>
+            </div>
+        </div>
+        <!--
+            En el lado derecho encontramos tres divs principales: el primero contiene una descripción, el segundo contiene datos mios y el tercero es para información laboral.
+        -->
+        <div class="side right">
+
+            <div class="top">
+                <h2>Información personal</h2>
+                <p>Soy una perona integra, honesta y organizada, que no se rinde frente a las dificultades que se presenten. Poseo gran motivación y buen animo, perfecto para realizar trabajos en equipo o individual.</p>
+            </div>
+
+                <!--
+                    En el div con class=center tenemos datos
+                -->
+            <div class="center">
+                        <!--
+                            Se tienen dos divs en un mismo dato para que cuando se haga el hover se cambie la información
+                        -->
+                    <div class="list CC">
+                        <div class="old Cd">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="new Cd">
+                            <h4>1001971312</h4>
+                        </div>
+                    </div>
+                    <div class="list number">
+                        <div class="old number">
+                            <i class="fas fa-phone-square-alt"></i>
+                        </div>
+                        <div class="new number">
+                            <h4>3045692975</h4>
+                        </div>
+                    </div>
+                    <div class="list address"> 
+                        <div class="old address">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="new address">
+                            <h4>Rep/venezuela M15 L21</h4>
+                        </div>
+                    </div>
+                    <div class="list email">
+                        <div class="old email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="new email">
+                            <h4>Adriamhassekgonza@gmail.com</h4>
+                        </div>
+                    </div>    
+            </div>
+                    <!--
+                        En el ultimo div encontramos lo que es la información laboral        
+                    -->
+            <div class="down">
+                
+                    <div class="experiencia">
+                        <div>
+                            <h3>Experiencia</h3>
+                        </div>
+                        <div>
+                                <p>No tengo experiencia laboral.</p>
+                                <p>He trabajado como independiente como ayudante en una carpinteria</p>
+                        </div>
+                    </div>
+            </div>
+          
+        </div>
+
+    </section>
+    <!--
+        Este es el script para que puedan salir los iconos en los datos personales
+    -->
+    <script src="https://kit.fontawesome.com/bf7a9b66f1.js" crossorigin="anonymous"></script>
+</body>
+</html>
